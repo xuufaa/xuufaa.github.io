@@ -1,0 +1,13 @@
+en:
+  home: "Home"
+  about: "About"
+  posts: "Posts"
+  tags: "Tags"
+  categories: "Categories"
+
+cn:
+  home: "主页"
+  about: "关于"
+  posts: "文章"
+  tags: "标签"
+  categories: "分类"

@@ -8,3 +8,21 @@
 ';
 
 /* append your custom style below */
+
+#新添加语言美化内容
+
+.language-switcher {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.language-switcher a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.language-switcher a:hover {
+  text-decoration: underline;
+}
