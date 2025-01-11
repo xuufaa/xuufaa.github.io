@@ -11,18 +11,19 @@
 
 #新添加语言美化内容
 
-.language-switcher {
+.lang-switch {
   margin-top: 10px;
   text-align: right;
+
+  a {
+    font-size: 0.9em;
+    color: #1e90ff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
-.language-switcher a {
-  color: #007bff;
-  text-decoration: none;
-  margin: 0 5px;
-  font-weight: bold;
-}
 
-.language-switcher a:hover {
-  text-decoration: underline;
-}

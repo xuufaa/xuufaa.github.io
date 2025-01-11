@@ -227,3 +227,14 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+#修改语言模块
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title/
+  cn:
+    output: true
+    permalink: /:collection/:title/
+#结束

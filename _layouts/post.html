@@ -36,6 +36,19 @@ script_includes:
         </span>
       {% endif %}
 
+      <!-- 添加语言切换按钮 -->
+      {% if page.alt_lang %}
+        <div class="lang-switch d-inline-block ms-3">
+          <a href="{{ page.alt_lang }}" class="btn btn-sm btn-outline-secondary">
+            {% if page.lang == "en" %}
+              中文
+            {% else %}
+              English
+            {% endif %}
+          </a>
+        </div>
+      {% endif %}
+
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
         {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
@@ -49,7 +62,7 @@ script_includes:
           <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
           {%- if page.image.alt -%}
             <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
-          {%- endif -%}
+          {%- endif %}
         </div>
       {% endif %}
 
@@ -177,3 +190,4 @@ script_includes:
   </div>
   <!-- div.post-tail-wrapper -->
 </article>
+
