@@ -1,0 +1,10 @@
+<div class="lang-switcher">
+  {% assign lang_urls = site.languages | map: "lang" %}
+  <ul>
+    {% for lang in lang_urls %}
+      <li>
+        <a href="/{{ lang }}/{{ page.url | remove: '/' }}">{{ lang | upcase }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
