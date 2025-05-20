@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>我的 Hugo 博客</title>
+    <link>https://xuufaa.github.io/</link>
+    <description>Recent content on 我的 Hugo 博客</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 20 May 2025 06:58:58 +0800</lastBuildDate>
+    <atom:link href="https://xuufaa.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://xuufaa.github.io/posts/my-first-post/</link>
+      <pubDate>Tue, 20 May 2025 06:58:58 +0800</pubDate>
+      <guid>https://xuufaa.github.io/posts/my-first-post/</guid>
+      <description>&lt;p&gt;你好，这是我用 Hugo 写的第一篇博客！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我的第一篇博文</title>
+      <link>https://xuufaa.github.io/posts/first-post/</link>
+      <pubDate>Tue, 20 May 2025 06:27:31 +0800</pubDate>
+      <guid>https://xuufaa.github.io/posts/first-post/</guid>
+      <description>&lt;p&gt;这是我用 Hugo 写的第一篇博客文章！🎉&lt;/p&gt;
+&lt;p&gt;我在学习 Hugo 和 Markdown，感觉还不错～&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
